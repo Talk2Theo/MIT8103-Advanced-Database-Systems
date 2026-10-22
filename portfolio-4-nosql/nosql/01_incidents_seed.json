@@ -1,0 +1,138 @@
+
+[
+  {
+    "incident_id": 101,
+    "title": "Suspicious VPN Login",
+    "severity": "High",
+    "status": "Investigating",
+    "assigned_analyst": "Daniel",
+    "client": "Theoscyba Demo Client A",
+    "asset": {
+      "hostname": "LAPTOP-101",
+      "type": "Windows 11 Endpoint",
+      "environment": "Corporate"
+    },
+    "indicators": [
+      {"type": "event", "value": "Unusual VPN authentication"},
+      {"type": "location", "value": "Unexpected geographic region"}
+    ],
+    "remediation_actions": [
+      "Review authentication logs",
+      "Verify user activity"
+    ]
+  },
+  {
+    "incident_id": 102,
+    "title": "Malware Detected on Endpoint",
+    "severity": "Critical",
+    "status": "Open",
+    "assigned_analyst": "Amina",
+    "client": "Theoscyba Demo Client B",
+    "asset": {
+      "hostname": "WORKSTATION-102",
+      "type": "Windows Endpoint",
+      "environment": "Corporate"
+    },
+    "indicators": [
+      {"type": "detection", "value": "Suspicious executable"},
+      {"type": "behaviour", "value": "Unexpected process activity"}
+    ],
+    "remediation_actions": [
+      "Isolate affected endpoint",
+      "Conduct malware analysis"
+    ]
+  },
+  {
+    "incident_id": 103,
+    "title": "Phishing Email Investigation",
+    "severity": "Medium",
+    "status": "Investigating",
+    "assigned_analyst": "Daniel",
+    "client": "Theoscyba Demo Client A",
+    "email_details": {
+      "subject": "Urgent Account Verification",
+      "attachment_present": true,
+      "suspicious_links": 2
+    },
+    "indicators": [
+      {"type": "email", "value": "Suspicious sender domain"},
+      {"type": "attachment", "value": "Potentially malicious file"}
+    ],
+    "remediation_actions": [
+      "Quarantine suspicious message",
+      "Investigate recipient activity"
+    ]
+  },
+  {
+    "incident_id": 104,
+    "title": "Brute Force Login Attempt",
+    "severity": "High",
+    "status": "Open",
+    "assigned_analyst": "Tunde",
+    "client": "Theoscyba Demo Client C",
+    "asset": {
+      "hostname": "AUTH-SERVER-104",
+      "type": "Authentication Server",
+      "environment": "Production"
+    },
+    "login_activity": {
+      "failed_attempts": 47,
+      "account_locked": true
+    },
+    "indicators": [
+      {"type": "authentication", "value": "Repeated failed logins"}
+    ],
+    "remediation_actions": [
+      "Review authentication logs",
+      "Validate account lockout controls"
+    ]
+  },
+  {
+    "incident_id": 105,
+    "title": "Unpatched Server Vulnerability",
+    "severity": "Critical",
+    "status": "Investigating",
+    "assigned_analyst": "Amina",
+    "client": "Theoscyba Demo Client B",
+    "asset": {
+      "hostname": "APP-SERVER-105",
+      "type": "Application Server",
+      "environment": "Production"
+    },
+    "vulnerability_details": {
+      "cvss_score": 9.1,
+      "patch_available": true
+    },
+    "remediation_actions": [
+      "Validate affected software version",
+      "Schedule patch deployment",
+      "Perform post-patch verification"
+    ]
+  },
+  {
+    "incident_id": 106,
+    "title": "Suspicious Network Traffic",
+    "severity": "Low",
+    "status": "Resolved",
+    "assigned_analyst": "Tunde",
+    "client": "Theoscyba Demo Client C",
+    "asset": {
+      "hostname": "FW-106",
+      "type": "Network Firewall",
+      "environment": "Corporate"
+    },
+    "network_details": {
+      "protocol": "TCP",
+      "destination_port": 443,
+      "blocked": true
+    },
+    "remediation_actions": [
+      "Review firewall alerts",
+      "Confirm traffic was blocked"
+    ],
+    "resolution": {
+      "verified": true,
+      "notes": "No additional malicious activity observed"
+    }
+  }
+]
