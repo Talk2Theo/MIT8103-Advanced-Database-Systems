@@ -1,0 +1,63 @@
+
+[
+  {
+    "event_id": "CLOUD-001",
+    "event_type": "Suspicious Cloud Login",
+    "severity": "Critical",
+    "status": "Open",
+    "client": "Theoscyba Demo Client A",
+    "cloud_environment": {
+      "provider": "AWS",
+      "region": "eu-west-3",
+      "workload": "Identity Service"
+    }
+  },
+  {
+    "event_id": "CLOUD-002",
+    "event_type": "Cloud Storage Access Alert",
+    "severity": "High",
+    "status": "Investigating",
+    "client": "Theoscyba Demo Client B",
+    "cloud_environment": {
+      "provider": "AWS",
+      "region": "eu-west-3",
+      "workload": "Object Storage"
+    }
+  },
+  {
+    "event_id": "CLOUD-003",
+    "event_type": "Malware Detection",
+    "severity": "Critical",
+    "status": "Open",
+    "client": "Theoscyba Demo Client C",
+    "cloud_environment": {
+      "provider": "AWS",
+      "region": "eu-west-3",
+      "workload": "Application Server"
+    }
+  },
+  {
+    "event_id": "CLOUD-004",
+    "event_type": "Unusual API Requests",
+    "severity": "Medium",
+    "status": "Investigating",
+    "client": "Theoscyba Demo Client A",
+    "cloud_environment": {
+      "provider": "AWS",
+      "region": "eu-west-3",
+      "workload": "API Gateway"
+    }
+  },
+  {
+    "event_id": "CLOUD-005",
+    "event_type": "Firewall Policy Alert",
+    "severity": "Low",
+    "status": "Resolved",
+    "client": "Theoscyba Demo Client B",
+    "cloud_environment": {
+      "provider": "AWS",
+      "region": "eu-west-3",
+      "workload": "Network Security"
+    }
+  }
+]
