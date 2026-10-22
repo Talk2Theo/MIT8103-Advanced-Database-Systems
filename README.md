@@ -19,12 +19,12 @@ The project provides a consistent cybersecurity-focused case study through which
 | Portfolio | Topic | Status |
 |---|---|---|
 | [Portfolio 1](portfolio-1-database-design/) | Database Design and Modelling | Completed and documented |
-| [Portfolio 2](portfolio-2-query-optimisation/) | Query Processing and Optimisation | Planned |
-| [Portfolio 3](portfolio-3-transactions-concurrency/) | Transactions and Concurrency | Planned |
-| [Portfolio 4](portfolio-4-nosql/) | NoSQL and Advanced Data Models | Planned |
-| [Portfolio 5](portfolio-5-distributed-cloud/) | Distributed and Cloud Databases | Planned |
+| [Portfolio 2](portfolio-2-query-optimisation/) | Query Processing and Optimisation | Completed and documented |
+| [Portfolio 3](portfolio-3-transactions-concurrency/) | Transactions and Concurrency | Completed and documented |
+| [Portfolio 4](portfolio-4-nosql/) | NoSQL and Advanced Data Models | Completed and documented |
+| [Portfolio 5](portfolio-5-distributed-cloud/) | Distributed and Cloud Databases | Completed and documented |
 
-Portfolio status will be updated as the remaining practical activities are implemented and verified.
+All five practical portfolio activities have been successfully implemented, tested, documented and verified. Each portfolio contains the relevant technical documentation, implementation files and supporting evidence. The repository demonstrates practical applications of relational database design, query optimisation, transaction management, NoSQL modelling and cloud database concepts using the Theoscyba Security Services cybersecurity case study.
 
 ## Portfolio 1 — Relational Database Design and Implementation
 
