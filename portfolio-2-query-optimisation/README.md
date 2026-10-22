@@ -18,4 +18,4 @@ Investigate query performance using PostgreSQL execution plans, indexing and opt
 - Indexing and optimisation experiments
 - Performance comparisons and analysis
 
-**Status:** Completed and Documented
+**Status:** Planned
